@@ -1,0 +1,456 @@
+/* General styles */
+
+body {
+    background: url("../images/Big-Fat-Quiz-of-the-Year-2023.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Abril Fatface', 'san-serif';
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+/* title logo */
+
+.heading {
+    margin: 30px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 600%;
+    font-family: 'Abril Fatface', 'san-serif';
+    text-shadow: 1px 1px 5px black, 0 0 50px black, 0 0 60px black, 0 0 60px black;
+}
+
+.heading a {
+    text-decoration: none;
+    color: white;
+}
+
+/* login and rules screen elements */
+
+#login-rules {
+    height: 700px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px
+}
+
+.rules {
+    background-color: white;
+    height: auto;
+    width: 600px;
+    border: solid 1px black;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 15%;
+    box-shadow: 0 0 10px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.rules h1 {
+    margin-bottom: 0 !important;
+    font-size: 2.5rem;
+}
+
+.rules ol li {
+    margin: 15px;
+    font-size: 1.3rem
+}
+
+input {
+    border-radius: 0.3rem;
+    border: none;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    box-shadow: 0 0 10px 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* button elements */
+
+.btn {
+    border-radius: 0.3rem;
+    border: none;
+    width: 300px;
+    height: 50px;
+    box-shadow: 0 0 10px 5px;
+    font-size: 2em;
+    text-align: center;
+    background-color: white;
+    font-family: 'Abril Fatface', 'san-serif';
+}
+
+.btn:hover {
+    width: 320px;
+    height: 60px;
+    font-size: 2.2em;
+}
+
+button:disabled {
+    color: black !important;
+}
+
+/* game play screen elements */
+
+#game-play {
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px
+}
+
+#question-box {
+    background-color: white;
+    height: auto;
+    min-height: 150px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+    font-size: 2.6rem;
+}
+
+.fact {
+    font-size: 2.1rem !important;
+}
+
+#button-box {
+    max-height: 500px;
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.answers {
+    height: 80px;
+    width: 350px;
+    margin: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    font-family: 'Abril Fatface', 'san-serif';
+}
+
+.answers:hover {
+    box-shadow: 0 0 10px 2px white;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+.jiggle {
+    animation: jiggle 0.2s infinite;
+    animation-duration: 0.2s;
+    animation-name: jiggle;
+    animation-iteration-count: infinite;
+    transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+@keyframes jiggle {
+    0% {
+        transform: rotate(-1deg);
+    }
+    50% {
+        transform: rotate(1deg);
+    }
+}
+
+@keyframes jiggle {
+    0% {
+        transform: rotate(-1deg);
+        }
+    50% {
+        transform: rotate(1deg);
+    }
+}
+
+/* results / end game screen elements */
+
+.score-box {
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border: solid 2px black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+.score-box p {
+    margin: 0 !important
+}
+
+#game-results {
+    height: 700px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px
+}
+
+.score-display {
+    background-color: white;
+    height: 200px;
+    width: 600px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 15%;
+    box-shadow: 0 0 10px 5px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#home {
+    margin: 30px
+}
+
+.hide {
+    display: none !important;
+}
+
+/* 404 page elements */
+
+.error {
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    border: solid 1px black;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15%;
+    box-shadow: 0 0 10px 5px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.error a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.3rem;
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1300px wide and down */
+
+@media only screen and (max-width: 1300px) {
+
+    .heading {
+        font-size: 500%;
+    }
+
+    .quiz-area {
+        border: solid 2px black;
+        width: 70%;
+    }
+
+    .question-box {     
+        width: 60%;
+    }
+}
+
+/* For medium screens sizes from 950px wide and down */
+
+@media only screen and (max-width: 950px) {
+
+    .heading {
+        font-size: 370%;
+    }
+        
+    .quiz-area {
+        border: solid 5px black;
+        margin-top: 10px;
+        width: 80%;
+    }
+        
+    .question-box {    
+        width: 80%;   
+    }
+        
+    .answers {
+        height: 60px;
+        width: 250px;
+        margin: 10px;
+        border: solid 2px black;
+        border-radius: 10px;
+        font-size: 2rem;
+    }
+
+    .rules h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0 !important;
+    }
+
+    .rules ol {
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    .rules ol li {
+        font-size: 1.3rem;
+        padding-left: 0;
+    }
+}
+
+/* For small screens sizes from 650px wide and down */
+  
+@media only screen and (max-width: 650px) {
+
+    header {
+        height: 40px
+    }
+
+    .heading {
+        font-size: 200%;
+        margin: 10px;
+    }
+
+    input {
+        border-radius: 0.3rem;
+        border: none;
+        margin: 20px;
+        width: 200px;
+        height: 50px;
+        box-shadow: 0 0 10px 5px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+            
+    .rules {
+        width: 120%;
+        margin: 5px
+    }
+
+    .error {
+        width: 90%;
+        margin: auto;  
+    }
+
+    .error a {
+        font-size: 1.5rem; 
+    }
+            
+    .answers {
+        height: 50px;
+        width: 130px;
+        margin: 0px;
+        border: solid 2px black;
+        border-radius: 10px;
+        font-size: 1.5rem;
+    }
+
+    .score-box {
+        height: 35px;
+        width: 150px;
+        font-size: 0.9rem;   
+    }
+
+    #button-box {
+        margin: 20px;
+        gap: 10px;
+    }
+
+    .score-display {
+        width: 120%;
+        margin: 5px;
+        font-size: 1.6rem;  
+    }
+
+    .btn {
+        height: 30px;
+        width: 150px;
+        font-size: 1.1em;
+    }
+
+    .btn:hover {
+        height: 30px;
+        width: 150px;
+        font-size: 1.1em;
+    }
+
+    .rules ol li {
+        font-size: 1rem;
+    }      
+
+    #question-box {  
+        font-size: 26px;  
+        min-height: 100px;
+    }
+
+    .fact {
+        font-size: 20px !important;
+    }
+
+    #play-btn {
+        margin-top: 15px
+    }
+}
+
+/* For very small screens sizes from 320px wide and down */
+
+@media only screen and (max-width: 340px) {
+
+    .heading i {
+        display: none
+    }
+
+    .rules ol li {
+        font-size: 0.8rem;
+    }  
+
+    #question-box {  
+        width: 90vw !important;   
+    }
+
+    .score-display {
+
+        font-size: 1.4rem;
+    }
+
+    .fact {
+        font-size: 20px !important;
+    }
+}
