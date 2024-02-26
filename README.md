@@ -1,6 +1,6 @@
 # The Big Fat Quiz of 2023
 
-[View the live project here](https://...)
+[View the live project here][https://designasaweapon.github.io/PP2-Big-Fat-Quiz-v3/]
 
 ![image](https://user-images...)
 
@@ -225,7 +225,7 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 - The page will refresh with a notification that” Your site is live”
 - Any changes pushed to the master branch will take effect on the live project
 
-  The live link can be found here - [The Big Fat Quiz of 2023](https://...) 
+  The live link can be found here - [The Big Fat Quiz of 2023][https://designasaweapon.github.io/PP2-Big-Fat-Quiz-v3/] 
   
 ### How to clone the repository
 
