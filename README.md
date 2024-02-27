@@ -99,7 +99,7 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 
 #### Future Features
 
-  - Adding categories for future development ensures that returning users continue to derive value from the platform and discover new content to sustain their interest.
+  - Adding further categories and questions during future development will ensure that returning users continue to derive value from the platform and discover new content to sustain their interest.
     
 ![image](https://user-images...)
 
@@ -117,9 +117,14 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 
 -   ### Typography
 
-    -   Google Fonts were used to import Abril Fat Face font into styles.css.
+    -   Google Fonts were used to import the relevant fonts into styles.css.
     -   This was chosen to mirror the quiz logo and give a fun feel throughout.
+ 
+-   ### Color
 
+    -   A simple and clear monochromatic pallete was chosen for the text
+    -   With correct answers highlighted in the 2023 Pantone color of the year, Teal.
+    -   Incorrect answers are highlighted in the Fuchsia tone taken from the program branding.
 
 -   ### Wireframes
 
@@ -149,9 +154,8 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 -   [Convertio](https://convertio.co/) was used to convert image files from jpg to avif.
 -   [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
 -   [Cloud Convert:](https://cloudconvert.com/) was used to convert image files from jpg to webp.
--   [Favicon:](https://favicon.io/favicon-converter/) was used to convert icon to a favicon.
--   [Photopea:](https://www.photopea.com/) was used to remove white background from favicon icon.
--   Chrome dev tools to troubleshoot, test and check responsiveness of features.
+-   [Favicon:](https://favicon.io/favicon-converter/) was used to produce a favicon in the font and colorway.
+-   Chrome dev tools were used to troubleshoot, test and check responsiveness of features.
     
 ## Testing
 
@@ -169,14 +173,13 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
     - Firefox Version Version 110.0.1 (64-bit)
     - Edge Version 110.0.1587.57 (Official build) (64-bit)
 
-
 ### Responsivity
 
 - iPad – 768px x 1024px
 
 ![image](https://user-images...)
 
-- iPhone SE – 375px x 667px
+- iPhone 13 – 375px x 667px
     
 ![image](https://user-images...)
 
