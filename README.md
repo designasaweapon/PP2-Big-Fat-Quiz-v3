@@ -103,7 +103,7 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 
   - Adding further categories and questions during future development will ensure that returning users continue to derive value from the platform and discover new content to sustain their interest.
     
-![image](https://user-images...)
+![image](assets/images/WireframeMain.png)
 
 ## Design
 
@@ -131,13 +131,13 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 -   ### Wireframes
 
 #### Home Screen Wireframes
-![image](https://user-images...)
+![image](assets/images/WireframeHomes.png)
 
 #### Quiz Screen Wireframes
-![image](https://user-images...)
+![image](assets/images/WireframeQuiz.png)
 
 #### Results Screen Wireframes
-![image](https://user-images...)
+![image](assets/images/WireframeResults.png)
 
 ## Technologies Used
 
@@ -215,7 +215,7 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 [Link Here](https://pagespeed.web.dev/analysis/https-designasaweapon-github-io-PP2-Big-Fat-Quiz-v3/dp5ht07kcm)
 
 ![image](assets/images/SpeedtestMobile.png)
-![image](https://user-images...)
+![image](assets/images/SpeedtestDesktop.png)
 
 
 ## Deployment
