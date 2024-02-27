@@ -212,7 +212,9 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 
 - [PageSpeed Insights](https://pagespeed.web.dev/)
 
-![image](https://user-images...)
+[Link Here](https://pagespeed.web.dev/analysis/https-designasaweapon-github-io-PP2-Big-Fat-Quiz-v3/dp5ht07kcm)
+
+![image]()
 ![image](https://user-images...)
 
 
