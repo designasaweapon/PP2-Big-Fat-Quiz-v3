@@ -54,12 +54,14 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
     - The design is characterized by simplicity, featuring a background that resonates with the branding of the Channel 4 program, aligning with the annual quiz broadcast in December 2023.
     - To provide visual depth and emphasis, all elements incorporate drop shadows, enhancing the clarity and prominence of text, navigation, and featured components on the page.
     
-    ![image](https://user-images...)
+    ![image]()
 
     - The input field is configured to automatically load the cursor, facilitating seamless entry of the user's name with minimal effort.
     - If users attempt to initiate the quiz without entering their name first, they will receive a prompt reminding them to input their name into the designated field.
       
-    ![image](https://user-images...)
+![image]()
+
+![image]
 
 - __QUIZ__
     
