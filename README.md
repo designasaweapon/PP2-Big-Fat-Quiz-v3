@@ -165,9 +165,9 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 
 - The below tables detail the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercises.
 
-![image](https://user-images...)
+![image](assets/images/testpass.png)
 
-![image](https://user-images...)
+![image](assets/images/testfailfix.png)
 
 - Testing has been carried out on the following browsers :
 
