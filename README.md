@@ -2,7 +2,7 @@
 
 [View the live project here](https://designasaweapon.github.io/PP2-Big-Fat-Quiz-v3/)
 
-![image](https://user-images...)
+![image](assets/images/MockUp.png)
 
 Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Channel 4 Television's "The Big Fat Quiz of The Year." Test your general knowledge of global events from 2023 on this interactive platform. Simply enter your name to begin the quiz, featuring 10 questions that dynamically update as you play. Upon completion, view your results and choose between replaying or returning home. Let's get started
 
@@ -175,15 +175,13 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
     - Firefox Version Version 110.0.1 (64-bit)
     - Edge Version 110.0.1587.57 (Official build) (64-bit)
 
-### Responsivity
+### Responsivity Testing
 
 - iPad – 768px x 1024px
 
-![image](https://user-images...)
-
 - iPhone 13 – 375px x 667px
     
-![image](https://user-images...)
+![image](assets/images/Mobile.png)
 
  
  ### Automated Validator Testing
