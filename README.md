@@ -1,6 +1,6 @@
 # The Big Fat Quiz Of The Year - 2023 Edition
 
-[View the live project here][https://designasaweapon.github.io/PP2-Big-Fat-Quiz-v3/]
+[View the live project here](https://designasaweapon.github.io/PP2-Big-Fat-Quiz-v3/)
 
 ![image](https://user-images...)
 
