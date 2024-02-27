@@ -181,13 +181,13 @@ function displayFinalScore() {
     let finalScore = parseInt(document.getElementById('final-score').innerText);
     document.getElementById('final-score').innerText = finalScore;
     if (finalScore < 3) {
-        document.getElementById('message').innerText = "Hopefully you learned something today";
+        document.getElementById('message').innerText = "OK, so you know the year just gone, you need to review!";
     } else if (finalScore <= 5) {
-        document.getElementById('message').innerText = "Not bad but better luck next time";
+        document.getElementById('message').innerText = "Like most of my school reports - Could Do Better!";
     } else if (finalScore <= 9) {
-        document.getElementById('message').innerText = "You know your geography";
+        document.getElementById('message').innerText = "Well done, you rememembered quite a bit about last year!";
     } else if (finalScore == questions.length) {
-        document.getElementById('message').innerText = "Wow. Maybe you should be a teacher";
+        document.getElementById('message').innerText = "We think you should get out more, this is a bit much";
     } else {
         document.getElementById('message').innerText = "There seems to be a problem with the score";
     }
