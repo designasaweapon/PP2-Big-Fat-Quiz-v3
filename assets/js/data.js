@@ -2,7 +2,7 @@
 
 const questions = [
     {
-        question: 'What was the name of Prince Harry's memoir published in January?',
+        question: 'Name of Prince Harrys memoir published in January?',
         answer: [
             {text: 'Hair', correct: false },
             {text: 'Spare', correct: true},
@@ -12,7 +12,7 @@ const questions = [
         fact: "Harry became a working member of the Royal Family officially at 21.",
     },
     {
-        question: 'At the beginning of the year which country re-opened its borders to international visitors post-Covid?',
+        question: 'Which country only re-opened its borders early-2023 to international visitors post-Covid?',
         answer: [
             {text: 'Poland', correct: false },
             {text: 'Ireland', correct: false},
