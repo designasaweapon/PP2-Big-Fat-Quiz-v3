@@ -203,12 +203,15 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 - [JSHint Validator](https://jshint.com/)
 
     - script.js
-
-    ![image](https://user-images...)
+      The undefined questions are defined in the data.js file
+      The undefined oldScore and finalScore variables are used to reset and increment the player's score.
+      
+    ![image](assets/images/ScriptJS.png)
   
-    - data.js
+    - The data.js Hints
+      The unused variable flagged is used in the script.js file.
 
-    ![image](https://user-images...)
+    ![image](assets/images/DataJS.png)
 
 - [PageSpeed Insights](https://pagespeed.web.dev/)
 
