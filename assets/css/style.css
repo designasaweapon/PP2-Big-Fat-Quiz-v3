@@ -162,7 +162,7 @@ button:disabled {
 }
 
 .incorrect {
-    background-color: fuschia;
+    background-color: rgb(255 0 255 / 75%)
 }
 
 .jiggle {
