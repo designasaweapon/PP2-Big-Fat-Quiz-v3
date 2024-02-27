@@ -42,49 +42,44 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 - __TITLE__
 
     - The capitalized title is highlighted with a shadow effect to enhance its visibility against the background.
-    - Font Awesome icons are incorporated to accentuate the title.
     - Users have the convenience of clicking on the title to return to the home screen at any juncture during gameplay.
-
-![image](https://user-images...)
 
 - __HOME__
 
-    - Upon landing on the home screen, players encounter the prominently displayed title alongside sections for presenting the rules and instructions on how to play.
+    - Upon landing on the home screen, players encounter the title alongside sections for presenting the rules and instructions on how to play.
     - An input field is provided for users to enter their names, accompanied by a start button to initiate the quiz.
-    - The design is characterized by simplicity, featuring a background that resonates with the branding of the Channel 4 program, aligning with the annual quiz broadcast in December 2023.
-    - To provide visual depth and emphasis, all elements incorporate drop shadows, enhancing the clarity and prominence of text, navigation, and featured components on the page.
+    - The design is simple, featuring a background that resonates with the branding of the Channel 4 program, broadcast in December 2023.
+    - To provide visual depth and emphasis, all elements incorporate drop shadows, enhancing the clarity and prominence of text.
     
-    ![image]()
+    ![image](assets/images/MAINHOME.png)
 
     - The input field is configured to automatically load the cursor, facilitating seamless entry of the user's name with minimal effort.
-    - If users attempt to initiate the quiz without entering their name first, they will receive a prompt reminding them to input their name into the designated field.
-      
-![image]()
-
-![image]
+    - If users initiate the quiz without entering their name, they will receive a prompt reminding them to input their name into the designated field.
 
 - __QUIZ__
     
     - Clicking the start button on the home screen, users will transition to the game screen.
-    - The quiz screen comprises four key elements: the question number and current score, the question itself, the four possible answers, and a button to proceed to the next question.
-    - The aesthetics of the elements are styled in accordance with the design of the home screen, ensuring consistency and coherence throughout the user experience (UX).
-       
-    ![image](https://user-images...)
+    - The four key elements are: the question number and current score, the question itself, the four possible answers, and a button to proceed.
+    - The aesthetics of the elements are styled in accordance with the design of the home screen, ensuring consistency and coherence throughout .
 
-    - On clicking an answer, the buttons will dynamically change color. The correct answer button will turn green while the incorrect ones will be highlighted in red.
-    - A relevant fact or link to further info will replace the question, aiding the user's learning process.
+    ![image](assets/images/QUESTION.png)
+
+    - On clicking an answer, the buttons will dynamically change color.
+    - The correct answer button will turn TEAL while the incorrect ones will be highlighted in 75% opacity FUCHSIA.
+    - A relevant fact or link to further info will replace the question, aiding the player's learning process.
     - This visual cue allows users to readily identify the correct answer and enhances their comprehension as they progress through the quiz.
     - Furthermore, the score will increment if the user selects the correct answer, reinforcing their success in the game.
 
-    ![image](https://user-images...)
+    ![image](assets/images/ANSWER.png)
 
-    - Once the user selects an answer, it becomes disabled, initiating progression to the next question.
-    - After four seconds, the NEXT button will begin to jiggle, signaling to the user to proceed to the subsequent question.
-    - Upon reaching the final question, the NEXT button transitions to "END," and the results screen is automatically presented, facilitating a seamless conclusion to the quiz experience.
+    - Once the player selects an answer, it becomes disabled, initiating progression to the next question.
+    - After four seconds, the NEXT button will begin to jiggle, signaling to the player to proceed to the subsequent question.
+    - Upon reaching the final question, the NEXT button transitions to "END," and the results screen is automatically presented
+    - All of this facilitating a seamless conclusion to the quiz experience.
     
 - __RESULTS__
     
-    - The results screen features a section showcasing the final score and a personalized message to the user, incorporating the name they provided on the home screen.
+    - The results screen features the final score and a personalized message to the user, incorporating the name they provided on the home screen.
     - The message content is contingent upon the final score achieved. Additionally, two interactive buttons are available:
     - "Play Again," which resets the quiz to question 1, and
     - "Home," which redirects the user to the home screen for navigation convenience.
