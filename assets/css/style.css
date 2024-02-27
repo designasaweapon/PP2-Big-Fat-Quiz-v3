@@ -158,11 +158,11 @@ button:disabled {
 }
 
 .correct {
-    background-color: green;
+    background-color: teal;
 }
 
 .incorrect {
-    background-color: red;
+    background-color: fuschia;
 }
 
 .jiggle {
