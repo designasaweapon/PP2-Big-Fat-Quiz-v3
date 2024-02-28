@@ -84,7 +84,7 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
     - "Play Again," which resets the quiz to question 1, and
     - "Home," which redirects the user to the home screen for navigation convenience.
     
-    ![image](https://user-images...)
+    ![image](assets/images/RESULTS.png)
     
 - __404 PAGE__
     
@@ -92,7 +92,7 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
     - Clicking on the title logo or...
     - Selecting the text within the box container.
  
-    ![image](https://user-images...)
+    ![image](assets/images/404.png)
 
 #### Future Features
 
@@ -183,17 +183,13 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 
 - [HTML Validator](https://validator.w3.org/)
 
-    - result for index.html
+    - Perfect Result
 
-    ![image](https://user-images...)
-
-    - result for 404.html
-
-    ![image](https://user-images...)
+    ![image](assets/images/HTMLTEST.png)
 
  - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-    ![image](https://user-images...)
+    ![image](assets/images/CSSTEST.png)
 
 - [JSHint Validator](https://jshint.com/)
 
@@ -221,23 +217,23 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 ### How this site was deployed
 
 - Login to Github
-- Click on the GitHub repository for this project (https://...)
+- Click on the GitHub repository for this project - [REPO LINK HERE](https://github.com/designasaweapon/PP2-Big-Fat-Quiz-v3/)
 - Click on the Settings tab, then choose Pages from the left hand menu 
 - From the source section drop-down menu, select the Main Branch
 - Once the main branch has been selected, click save.
 - The page will refresh with a notification that” Your site is live”
 - Any changes pushed to the master branch will take effect on the live project
 
-[The live link can be found here](https://designasaweapon.github.io/PP2-Big-Fat-Quiz-v3/) 
+[LIVE LINK HERE](https://designasaweapon.github.io/PP2-Big-Fat-Quiz-v3/) 
   
 ### How to clone the repository
 
-- Go to the https:... repository on GitHub 
+- Go to the repository on GitHub - [REPO LINK HERE](https://github.com/designasaweapon/PP2-Big-Fat-Quiz-v3/)
 - Click the "Fork" button in the top right corner
 
 ### How to clone the repository
 
-- Go to the https://... repository on GitHub 
+- Go to the repository on GitHub - [REPO LINK HERE](https://github.com/designasaweapon/PP2-Big-Fat-Quiz-v3/)
 - Click the "Code" button to the right of the screen, click HTTPs and copy the link there
 - Open a GitBash terminal and navigate to the directory where you want to locate the clone
 - On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
@@ -251,6 +247,7 @@ Welcome to the online trivia quiz dedicated to promoting the 2023 edition of Cha
 ### Code research
 
 - Elements of the javascript code were researched EXTENSIVELY using youtube tutorials including Web Dev Simplified [Link](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1124s)
+- As with everybody, according to my mentor, initial coding was created having followed and reproduced the James Q Quick quiz build course on YouTube [Link] (https://www.youtube.com/u98ROZjBWy8?si=KKWlozSJMlN7cVyh) 
 
 ### Acknowledgements
 
